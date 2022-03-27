@@ -1,5 +1,4 @@
-![Capa-Github](https://user-images.githubusercontent.com/37223526/160263966-9fbd1cb4-1502-41c3-b075-86150f226b8e.jpg)
-
+![Capa-Github](https://user-images.githubusercontent.com/37223526/160264044-c7d80757-53b7-438c-b0ea-2b5bb7921a65.jpg)
 # ArenaDex Bot Discord
 
 Bot to share your Magic: The Gathering Arena deck.
