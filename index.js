@@ -4,7 +4,7 @@
  *
  * @author    Tiago Ribas <tgoribas@gmail.com>
  * @copyright 2021-2022 Bot ArenaDex
- * @version   2.1.0 (22/04/2022)
+ * @version   1.1.1 (22/04/2022)
  */
 
 // Variaveis de Ambiente
@@ -35,8 +35,8 @@ client.on("message", function (message) {
     const command = args.shift().toLowerCase();
   
     //Aqui tudo começa!                
-    if (command === "aarenadex") {
-        
+    if (command === "arenadex") {
+
         const action = args[0].split('\n', 1);
         console.log("Action..." + action)
 
