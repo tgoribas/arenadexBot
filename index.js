@@ -4,7 +4,7 @@
  *
  * @author    Tiago Ribas <tgoribas@gmail.com>
  * @copyright 2021-2022 Bot ArenaDex
- * @version   1.1.1 (22/04/2022)
+ * @version   1.1.2 (22/04/2022)
  */
 
 // Variaveis de Ambiente
@@ -43,8 +43,8 @@ client.on("message", function (message) {
         if (action == "share") {
 
             const arenaDeck = {
-                'deck'       : commandBody.replace('arenadex share', '').substring(2),
-                'encodedeck' : encodeURI(commandBody.replace('arenadex share', '').substring(2))
+                'deck'       : commandBody.replace('arenadex share', '').substring(1),
+                'encodedeck' : encodeURI(commandBody.replace('arenadex share', '').substring(1))
             }
             share(ENV, message, arenaDeck);
 
